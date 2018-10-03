@@ -4,13 +4,9 @@ def using_until
 
 end
 
-counter = 0
+levitation_force = 0
 
-until counter == 10
-  counter += 1
-end
-
-loop do
+until levitation_force == 10
   puts "Wingardium Leviosa"
-  break
+  levitation_force += 1
 end
