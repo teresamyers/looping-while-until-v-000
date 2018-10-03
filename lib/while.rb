@@ -9,10 +9,5 @@ counter = 0
 
 while counter < 10
   puts "Wingardium Leviosa"
-  counter += 1
-end
-
-loop do
-  puts "Wingardium Leviosa"
-  break
+  levitation_force += 1
 end
